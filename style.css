@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,700;1,400;1,700&family=Kalnia:wght@100;200;300;400;500;600;700&family=Karla:wght@200&family=Raleway:ital,wght@0,200;0,400;0,500;0,600;0,800;0,900;1,800;1,900&family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/*font-family: 'Anonymous Pro', monospace;
+font-family: 'Kalnia', serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sometype Mono', monospace;
+*/
+
+.hero-1{
+    width: 100%;
+    height: 500px;
+    background-image: url(assets/portadas/P001_FB-1_G60-8135_Ext_Dsk_v001.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    
+    
+}
+.header {
+    display: flex;
+    border-bottom: 1px solid #a1a1a1;
+   min-height: 100px;
+
+}
+.menu-1 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+.item-menu-1 {
+    color: #f6f6f6;
+    font-family: 'Sometype Mono', monospace;
+   
+
+}
+.item-menu-1:hover {
+    cursor: pointer;
+    color: #f9f9f9;
+    font-weight: 700;
+    border-bottom:  2px  solid rgb(9, 97, 185);
+    padding-bottom: 10px;
+    transition: border 0.3s linear;
+
+
+}
+
+.conten-100 {
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.element {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.caja-img {
+    width: 300px;
+    cursor: pointer;
+    
+
+}
+
+.img-car {
+    width: 270px;
+    height: auto;
+}
+.img-car:hover {
+    width: 300px;
+    transform: translate(5px,10px);
+    transition: all 0.5s linear;
+    
+}
+.tit-car {
+    font-family: 'Sometype Mono', monospace;
+    font-size: 1.2rem;
+    color: rgb(116, 116, 116);
+}
+.precio {
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: rgb(189, 189, 189);
+}
