@@ -6,7 +6,26 @@ font-family: 'Karla', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Sometype Mono', monospace;
 */
-
+* {
+    font-size: 16px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+footer {
+    background-color: #f6f6f6;
+}
+.spaciador-6 {
+    height: 6rem;
+    
+}
+.spaciador-4 {
+    height: 40px;
+}
+.spaciador-2 {
+    height: 20px;
+}
 .hero-1{
     width: 100%;
     height: 500px;
@@ -50,16 +69,65 @@ font-family: 'Sometype Mono', monospace;
 
 
 }
+.menu-2 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+.item-menu-2 {
+    color: #686868;
+    font-family: 'Sometype Mono', monospace;
+   
+
+}
+.item-menu-2:hover {
+    cursor: pointer;
+    color: #262626;
+    font-weight: 700;
+    border-bottom:  2px  solid rgb(9, 97, 185);
+    padding-bottom: 10px;
+    transition: border 0.3s linear;
+
+
+}
+.item-menu-2:active {
+    color: #262626;
+    font-weight: 900;
+}
 
 .conten-100 {
     width: 100%;
+    margin: 90px 0px;
 }
 
+.content-tit {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
 .content {
     margin: 0 auto;
     max-width: 1440px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.content1 {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 
 }
@@ -81,10 +149,15 @@ font-family: 'Sometype Mono', monospace;
     height: auto;
 }
 .img-car:hover {
-    width: 300px;
-    transform: translate(5px,10px);
-    transition: all 0.5s linear;
+   
+    transform: translate(-60px,0);
+    transition: all 0.4s linear;
     
+}
+.tit-sect {
+    font-family: 'Sometype Mono', monospace;
+    font-size: 1.8rem;
+    color: rgb(116, 116, 116);
 }
 .tit-car {
     font-family: 'Sometype Mono', monospace;
@@ -96,4 +169,40 @@ font-family: 'Sometype Mono', monospace;
     font-weight: 300;
     font-size: 1rem;
     color: rgb(189, 189, 189);
+}
+.footer {
+    width: 30%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px;
+}
+.tit-fot {
+    font-family: 'Sometype Mono', monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: medium;
+    color: #b8b8b8;
+
+}
+.foot-list {
+    list-style: none;
+   
+}
+.fot-not-tit {
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    color: #010101;
+    margin-bottom: 10px;
+}
+.icons {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
